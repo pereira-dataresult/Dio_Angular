@@ -1,0 +1,34 @@
+.container__small-card {
+  border: solid white 2px;
+  width: 810px;
+  height: 147px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 5px;
+}
+
+.container__small-card > .small-card-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.container__small-card > .small-card-foto {
+  margin: 20px;
+}
+
+.container__small-card > .small-card-text > a > .small-card-title {
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
+  margin-left: 8px;
+  font-size: 10px;
+  }
+
+
+.container__small-card > .small-card-text >.small-card-desc > p {
+  color: gray;
+  margin: 10px;
+  text-align: justify;
+}
+

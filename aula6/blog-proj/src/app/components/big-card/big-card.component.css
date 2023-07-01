@@ -1,0 +1,29 @@
+.container__big-card {
+  border: solid white 2px;
+  width: 450px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 5px;
+}
+
+.container__big-card > .big-card-foto {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container__big-card > .big-card-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  }
+
+
+.container__big-card > .big-card-desc > p {
+  color: gray;
+  margin: 10px;
+  text-align: justify;
+}
+
