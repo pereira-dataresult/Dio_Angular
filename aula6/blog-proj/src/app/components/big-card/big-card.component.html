@@ -1,13 +1,13 @@
 <div class="container__big-card">
   <div class="big-card-foto">
     <img
-    src="{{ phocoCover }}"
+    src="{{ photoCover }}"
     alt=""
     height="250px"
     width="400px"
     srcset="">
   </div>
-  <a href="https://www.adorocinema.com/filmes/filme-59075/">
+  <a [routerLink]="['content', id]">
   <div class="big-card-title">
     <h1>{{ cardTitle }}</h1>
   </div>
